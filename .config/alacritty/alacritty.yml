@@ -1,0 +1,39 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+env:
+  TERM: xterm-256color
+
+window:
+  #dimensions:
+  #  columns: 0
+  #  lines: 0
+  #position:
+  #  x: 0
+  #  y: 0
+  padding:
+    x: 5
+    y: 5
+  # decorations: none
+  opacity: 0.9
+  title: Alacritty
+  
+scrolling:
+  history: 100000
+
+font:
+  normal:
+    family: Red Hat Mono
+    style: SemiBold
+  bold:
+    family: Red Hat Mono
+    style: Bold
+  italic:
+    family: Red Hat Mono
+    style: Italic
+  bold_italic:
+    family: Red Hat Mono
+    style: Bold Italic
+  size: 15.5
+draw_bold_text_with_bright_colors: true
+
+mouse:
+  hide_when_typing: true

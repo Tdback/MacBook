@@ -1,0 +1,6 @@
+#+TITLE: Tdback's MacBook Config
+
+This repo contains all the dotfiles and configuration I currently use on my MacBook. 
+Feel free to steal any code you would like! I am planning on updating this in the future to automatically configure any new installs using Ansible to avoid going through the tedious setup process each time I decide to wipe my drive and re-install MacOS. 
+
+For those interested, I also have a repo for my Linux configuration, which is what I daily-drive. My MacBook is more for quick script edits, taking notes in class, or for simply browsing the web. For a more in-depth configuration, go check out https://github.com/Tdback/Arch

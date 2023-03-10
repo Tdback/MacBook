@@ -1,0 +1,32 @@
+# Aliases called by ~/.zshrc
+
+# Terminal
+alias cp='cp -iv'
+alias rm='rm -Idv'
+alias mv='mv -v'
+alias mkdir='mkdir -v'
+alias rmdir='rmdir -v'
+
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Set alias to malt repo for testing and updates
+alias malt='~/Projects/Bash/Malt/malt.sh'
+
+# Always use -9 on file compression
+alias zip='zip -9'
+alias gzip='gzip -9'
+alias bzip2='bzip2 -9'
+
+# Start tmux 'main' session
+alias tmuxm='tmux new -s main'
+
+# Python
+alias py='/usr/bin/python3'
+alias python='/usr/bin/python3'
+
+# VIM
+alias v='/usr/local/bin/nvim'
+alias vi='/usr/local/bin/nvim'
+alias vim='/usr/local/bin/nvim'
