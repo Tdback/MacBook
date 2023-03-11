@@ -11,6 +11,9 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+# Make bat function like cat
+alias bat='bat --paging=never'
+
 # Set alias to malt repo for testing and updates
 alias malt='~/Projects/Bash/Malt/malt.sh'
 
