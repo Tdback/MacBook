@@ -1,6 +1,11 @@
 # Aliases called by ~/.zshrc
 
 # Terminal
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
 alias cp='cp -iv'
 alias rm='rm -Idv'
 alias mv='mv -v'
